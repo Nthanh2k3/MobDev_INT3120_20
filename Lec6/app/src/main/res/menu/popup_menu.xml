@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lec6.MainActivity">
+
+    <item
+        android:id="@+id/popupitem1"
+        android:orderInCategory="100"
+        android:title="popup_item1"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/popup_sub_item1"
+                android:orderInCategory="100"
+                android:title="action_sub_item1"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/popup_sub_item2"
+                android:orderInCategory="100"
+                android:title="action_sub_item2"
+                app:showAsAction="never" />
+        </menu>
+
+    </item>
+
+
+    <item
+        android:id="@+id/popup_item2"
+        android:orderInCategory="100"
+        android:title="popup_item2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/popup_item3"
+        android:orderInCategory="100"
+        android:title="popup_item3"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/popup_item4"
+        android:orderInCategory="100"
+        android:title="popup_item4"
+        app:showAsAction="never" />
+
+
+</menu>
